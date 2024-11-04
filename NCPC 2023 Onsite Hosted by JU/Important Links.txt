@@ -1,0 +1,4 @@
+Contest Link: https://bapsoj.org/contests/ncpc-onsite-2023-hosted-by-ju
+Standing Link: https://bapsoj.org/contests/ncpc-onsite-2023-hosted-by-ju/standings
+
+Practice Link: https://lightoj.com/problems/category/ncpc-bd-ju-23
