@@ -1,0 +1,36 @@
+1. MOCK OF ICPC DHAKA REGIONAL 2020 ONLINE PRELIMINARY
+------------------------------------------------------
+https://algo.codemarshal.org/contests/icpc-dhaka-20-preli-mock
+
+
+2. ICPC DHAKA REGIONAL 2020 ONLINE PRELIMINARY CONTEST - HOSTED BY CSE, DU
+--------------------------------------------------------------------------
+https://algo.codemarshal.org/contests/icpc-dhaka-20-preli
+
+
+3. MOCK OF ICPC DHAKA REGIONAL 2020 MAIN ROUND - HOSTED BY CSE, DU
+------------------------------------------------------------------
+https://algo.codemarshal.org/contests/icpc-dhaka-20-mock
+
+
+4. SECOND MOCK OF ICPC DHAKA REGIONAL 2020 MAIN ROUND - HOSTED BY CSE, DU
+-------------------------------------------------------------------------
+https://algo.codemarshal.org/contests/icpc-dhaka-20-mock2
+
+
+5. ICPC DHAKA REGIONAL 2020 MAIN ROUND - HOSTED BY CSE, DU
+----------------------------------------------------------
+https://algo.codemarshal.org/contests/icpc-dhaka-20
+
+
+
+
+
+
+******************ICPC 2021 World Finals Dhaka**************************
+------------------------------------------------------------------------
+https://codeforces.com/blog/entry/108890
+
+Question: https://drive.google.com/file/d/1-e-v5psMqcv5y55Qc0mlMLVLXyhOsBVB/view?fbclid=IwAR14aCm14dSHb9_eRZErDR2YM32BOaJ84oHD1sZ_OnqmSuBi74dGDJnnG8c
+
+Solution: https://github.com/SnapDragon64/ACMFinalsSolutions

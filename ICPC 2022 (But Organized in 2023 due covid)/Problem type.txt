@@ -1,0 +1,24 @@
+ICPC Preli 2022 Problem Types:
+-----------------------------
+A) Game Theory, DP
+B) Number Theory, Prime Factors
+C) Combinatorics, DP 
+D) Adhoc
+E) FFT, Combinatorics
+F) Implementation
+G) DP
+H) DS, centroid decomposition
+I) Binary Search, Geometry
+J) Observation
+--------
+Observation - 1
+Adhoc - 1
+Implementation - 1
+Number Theory - 1
+Binary Search - 1
+Combinatorics - 2
+DP - 3
+Game Theory - 1
+Data Structure - 1
+Geometry - 1
+FFT - 1

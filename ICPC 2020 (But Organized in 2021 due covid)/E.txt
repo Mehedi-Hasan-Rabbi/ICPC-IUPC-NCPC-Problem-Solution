@@ -1,0 +1,106 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define no printf("No\n")
+#define yes printf("Yes\n")
+#define sz(x) (int)x.size()
+#define all(x) x.begin(), x.end()
+#define rall(x) x.rbegin(), x.rend()
+#define ERAGE(x) x.erase(unique(all(x)), x.end())
+
+void files()
+{
+    freopen("1.in", "r", stdin);
+    freopen("1.out", "w", stdout);
+    return;
+}
+typedef long long ll;
+
+const int MXN = 1e5 + 5;
+const long long MOD = 1e9 + 7;
+
+int tc = 1;
+void sol()
+{
+    int n;
+    scanf("%d", &n);
+    int x[n];
+    for (int i = 0; i < n; ++i)
+        scanf("%d", &x[i]);
+
+    int ans = INT_MAX;
+    int idx = 0, idy = n - 1;
+    while (idx < n && x[idx] <= 0)
+        ++idx;
+    while (idy >= 0 && x[idy] <= 0)
+        --idy;
+    vector<int> keep;
+    int cnt = 0;
+    bool pas = true;
+    for (int i = idx + 1; i < idy; ++i)
+    {
+        if (x[i] < 0)
+        {
+            if (pas)
+            {
+                cnt++;
+                keep.push_back(i);
+            }
+            pas = false;
+        }
+        else
+        {
+            pas = true;
+        }
+    }
+    for (int i = 0; i + 1 < sz(keep); ++i)
+    {
+        pas = true;
+        for (int j = keep[i] + 1; j < keep[i + 1]; ++j)
+        {
+            if (x[j] > 0)
+            {
+                pas = false;
+                break;
+            }
+        }
+        if (pas)
+            cnt--;
+    }
+    cnt = max(cnt, 0);
+    ans = min(ans, cnt);
+
+    ll sum = 0;
+    cnt = 0;
+    int mx = -1e8;
+    for (int i = 0; i < n; ++i)
+    {
+        if (x[i] >= 0)
+            sum += x[i];
+        else
+            cnt++;
+        mx = max(mx, x[i]);
+    }
+
+    if (cnt == n)
+    {
+        sum = mx;
+        ans = 0;
+    }
+    else if (sum == 0LL)
+    {
+        ans = 0;
+    }
+    printf("Case %d: ", tc++);
+    printf("%lld %d\n", sum, ans);
+}
+int main()
+{
+    //files();
+    int tcase = 1;
+    scanf("%d", &tcase);
+    while (tcase--)
+    {
+        sol();
+    }
+}
